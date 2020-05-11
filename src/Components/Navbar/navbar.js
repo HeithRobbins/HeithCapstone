@@ -16,11 +16,6 @@ function Nav() {
             <div className="nav-container">
 
                 <div className="nav-wrapper">
-                    <div className="nav-links">
-                        <Link to="/SignIn">
-                            <li>Register</li>
-                        </Link>
-                    </div>
 
                     <div className="nav-links">
                         <Link to="/KeithCyndi">
@@ -65,6 +60,11 @@ function Nav() {
                     <div className="nav-links">
                         <Link to="/Sterling">
                             <li>Sterling</li>
+                        </Link>
+                    </div>
+                    <div className="nav-links">
+                        <Link to="/blog">
+                            <li>Blog page</li>
                         </Link>
                     </div>
                 </div>

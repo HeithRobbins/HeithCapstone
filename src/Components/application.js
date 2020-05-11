@@ -17,7 +17,7 @@ function Application() {
         <ProfilePage />
         :
         <Router>
-        // <UserProvider />
+        <UserProvider />
                 <SignUp path="/signUp" render={props => <SignUp {...props} />} />
                 <SignIn path="/signIn" render={props => <SignIn {...props} />} />
                 <PasswordReset path="/resetpw" render={props => <PasswordReset {...props} />} />

@@ -4,7 +4,7 @@ import { BrowserRouter, Switch, Route, } from 'react-router-dom';
 import "./style/main.scss";
 import Nav from "./Components/Navbar/navbar";
 
-import UserProvider from "./userProvider"
+// import UserProvider from "./userProvider"
 import Application from "./Components/application"
 
 
@@ -32,7 +32,7 @@ export default class App extends Component {
           <Nav />
           <Application />
           <Switch>
-            <Route exact path="/SignIn" component={SignIn} />
+            <Route exact path="/" component={SignIn} />
             <SignUp path="/signUp" />
             <PasswordReset path="/resetpw" />
             <Route path="/KeithCyndi" component={KeithCyndi} />

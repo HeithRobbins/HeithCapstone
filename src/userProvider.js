@@ -22,7 +22,7 @@ class UserProvider extends Component {
     render() {
         const { user } = this.state;
 
-        return (     //having a action and you not updatea it you need a function that update this us have it go to KeithCyndi page
+        return (    
             <UserContext.Provider value={user}>
                 {this.props.children}
             </UserContext.Provider>

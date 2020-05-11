@@ -6,8 +6,8 @@ import logo from "../style/image/g271.png"
 import { useHistory } from 'react-router-dom'
 
 const emailToPage = {
-    "heith.robbins@gmail.com": "/Heith"
-    , "testing@gmail.com": "/KeithCyndi"
+    "heith.robbins@gmail.com": "/Heith", 
+    "testing@gmail.com": "/KeithCyndi"
 }
 
 const SignIn = () => {

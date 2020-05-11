@@ -1,16 +1,16 @@
-import React, { useState , UseEffect, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 
 function Blog() {
     useEffect(() =>{
-        fetchItems();
+        fetchBlogs();
     }, []);
 
     const [items, setItems] = useState([]);
 
 
-    const fetchItems = async () => {
+    const fetchBlogs = async () => {
         const data = await fetch(
-            // this what where i get the api from to fetch
+            "https://git.heroku.com/hr-blog-api-capstone.git" 
         )
 
         const items = await data.json()
