@@ -1,0 +1,26 @@
+.form-container {
+    width: 500px;
+    position: absolute;
+    top: calc(60% - 250px);
+    left: calc(50% - 250px);
+    background-color: rgba(0,0,0,0.7);
+    padding: 60px;
+    box-shadow: 2ps 2ps 5ps black;
+    border-radius: 10px;
+    color: white;
+    
+}
+
+#next-button {
+    width: 100%;
+}
+
+#back-button {
+    font-size: 40px;
+    display: flex;
+    cursor: pointer;
+}
+
+#back-button:hover {
+    color: gray;
+}
