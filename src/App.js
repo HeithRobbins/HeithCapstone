@@ -20,6 +20,7 @@ import Sena from './Components/pages/Sena';
 import Jeremy from './Components/pages/Jeremy';
 import Shanelle from './Components/pages/Shanelle';
 import Sterling from './Components/pages/Sterling';
+import Blog from "./Components/pages/blog";
 
 
 export default class App extends Component {
@@ -44,7 +45,7 @@ export default class App extends Component {
             <Route path="/Jeremy" component={Jeremy} />
             <Route path="/Shanelle" component={Shanelle} />
             <Route path="/Sterling" component={Sterling} />
-            {/* <Route path="/blog" component={HomeBlog} /> */}
+            <Route path="/blog" component={Blog} />
           </Switch>
         </div>
       </BrowserRouter>
