@@ -3,8 +3,10 @@ import React from 'react';
 
 function Nathan() {
     return (
-        <div>
-            <h1>this is Nathan page</h1>
+        <div className="container">
+            <div className="header-wrapper">
+                <h1>this is Nathan page</h1>
+            </div>
         </div>
     )
 }

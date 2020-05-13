@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useState } from "react";
 import { Link } from 'react-router-dom'
 import { auth, generateUserDocument } from "../firebase"
 import firebase from 'firebase/app'
@@ -112,7 +112,7 @@ const SignUp = () => {
                     Already have an account?{" "}
                     <Link to="/SignIn" className="btnForSignIn">
                         Sign in here
-          </Link>{" "}
+                    </Link>{" "}
                 </p>
             </div>
         </div>

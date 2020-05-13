@@ -3,7 +3,7 @@ import React from 'react';
 
 function KeithCyndi() {
     return (
-        <div className="CK-container">
+        <div className="container">
             <div className="header-wrapper"><h1>this is KeithCyndi page</h1>
                 <div className="Keith-bio">
                     <div className="img-wrapper">

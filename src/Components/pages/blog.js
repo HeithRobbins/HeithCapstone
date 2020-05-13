@@ -10,7 +10,7 @@ function Blog() {
     
     const fetchBlogs = async () => {
         fetch(
-            "https://hr-blog-api-capstone.herokuapp.com" 
+            "https://hr-blog-api-capstone.herokuapp.com/blog" 
         ).then(res => {
             return res.text()
         })
@@ -24,7 +24,7 @@ function Blog() {
 
     return (
         <div>
-            {items}
+            <h1>just seeing something</h1>
         </div>
     )
 }
