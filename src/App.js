@@ -20,7 +20,7 @@ import Sena from './Components/pages/Sena';
 import Jeremy from './Components/pages/Jeremy';
 import Shanelle from './Components/pages/Shanelle';
 import Sterling from './Components/pages/Sterling';
-// import Blog from "./Components/pages/blog";
+import Blog from "./Components/pages/blog";
 
 require('dotenv').config()
 
@@ -35,7 +35,7 @@ export default class App extends Component {
           <Nav />
           <Application />
           <Switch>
-            <Route exact path="/SignIn" component={SignIn} />
+            <Route exact path="/" component={SignIn} />
             <SignUp path="/signUp" />
             <PasswordReset path="/resetpw" />
             <Route path="/KeithCyndi" component={KeithCyndi} />
@@ -47,7 +47,7 @@ export default class App extends Component {
             <Route path="/Jeremy" component={Jeremy} />
             <Route path="/Shanelle" component={Shanelle} />
             <Route path="/Sterling" component={Sterling} />
-            {/* <Route path="/blog" component={Blog} /> */}
+            <Route path="/blog" component={Blog} />
           </Switch>
         </div>
       </BrowserRouter>

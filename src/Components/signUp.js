@@ -110,7 +110,7 @@ const SignUp = () => {
         </button>
                 <p className="ptags-text">
                     Already have an account?{" "}
-                    <Link to="/SignIn" className="btnForSignIn">
+                    <Link to="/" className="btnForSignIn">
                         Sign in here
                     </Link>{" "}
                 </p>

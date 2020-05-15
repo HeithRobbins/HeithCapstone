@@ -6,6 +6,8 @@ const { JSDOM } = require('jsdom')
 const dompurify = createDomPurify(new JSDOM().window)
 // the above 3 are need to so nodejs can read HTML 
 
+
+
 const articleSchema = new mongoose.Schema({
     title: {
         type: String,

@@ -18,7 +18,7 @@ function Nav() {
                 <div className="nav-wrapper">
 
                     <div className="nav-links">
-                        <Link to="/SignIn">
+                        <Link to="/">
                             <li>Login</li>
                         </Link>
                     </div>
@@ -68,11 +68,11 @@ function Nav() {
                             <li>Sterling</li>
                         </Link>
                     </div>
-                    {/* <div className="nav-links">
+                    <div className="nav-links">
                         <Link to="/blog">
                             <li>Blog page</li>
                         </Link>
-                    </div> */}
+                    </div>
                 </div>
             </div>
         </nav>
